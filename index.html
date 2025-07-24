@@ -35,88 +35,97 @@
 
 <body class="secondary-text">
     <!-- header section  -->
-    <header class="container mx-auto">
+    <header class="container mx-auto  ">
         <!-- navigation section  -->
-        <nav class="flex justify-between nav-text mt-2">
-            <img src="./assets/logo.png" alt="logo" class="w-[135px]">
-            <ul class="flex items-center gap-4">
-                <li class="p-3 cursor-pointer "><a href="#" class="font-bold">Home</a> </li>
-                <li class="p-3 cursor-pointer "><a href="#" class="secondary-color ">Shop</a></li>
-                <li class="p-3 cursor-pointer "><a href="#" class="secondary-color ">About us</a></li>
-                <li class="flex p-3 cursor-pointer">
+        <nav class="flex justify-between nav-text mt-2 px-1">
+            <img src="./assets/logo.png" alt="logo" class="w-[70px] lg:w-[135px ]">
+            <div class="flex items-center ">
+                <ul class="items-center gap-4 hidden md:flex justify-center">
+                    <li class="p-3 cursor-pointer "><a href="#" class="font-bold">Home</a> </li>
+                    <li class="p-3 cursor-pointer "><a href="#" class="secondary-color ">Shop</a></li>
+                    <li class="p-3 cursor-pointer "><a href="#" class="secondary-color ">About us</a></li>
+
+                </ul>
+                <div class="flex p-3 cursor-pointer ">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <p>Cart($56)</p>
-                </li>
-            </ul>
+                </div>
+            </div>
+
         </nav>
-        <section class="banner flex justify-between items-end h-[461px] mt-[100px]">
-            <div class="banner-content w-1/2">
-                <h1 class="text-5xl font-bold primary-text ">ALWAYS <span class="primary-color leading-[65px]">FRESH
+        <section
+            class="banner flex flex-col-reverse  lg:flex-row  justify-between items-center lg:items-end lg:h-[461px] mt-[50px] lg:mt-[100px] xl:mt-[150px]">
+            <div class="banner-content lg:w-1/2 mx-2">
+                <h1 class="text-xl lg:text-5xl  font-bold primary-text mt-5 lg:mt-0">ALWAYS <span
+                        class="primary-color leading-[35px] lg:leading-[65px]">FRESH
                         <br> FLOWERS
                     </span></h1>
-                <p class="secondary-color w-[570px] mt-5">Indulge your senses with the beauty and fragrance of our fresh
+                <p class="secondary-color w-[100%] mt-5 text-sm text-justify">Indulge your senses with the beauty and fragrance of
+                    our fresh
                     flower shop. From classic roses to
                     exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
-            <div class="banner-image w-1/2 flex justify-end">
+            <div class="banner-image  lg:w-1/2 flex justify-end  ">
                 <img src="./assets/hero-flower.png" alt="banner-image-fresh-flower">
             </div>
         </section>
     </header>
     <!-- plants section  -->
-    <section class="plants container mx-auto mt-[126px]">
+    <section class="plants container mx-auto mt-[70px] lg:mt-[135px]">
         <div class="plants-des text-center ">
-            <h1 class="text-5xl font-bold primary-text "> <span class="primary-color leading-[65px]">Our
+            <h1 class="text-xl lg:text-5xl font-bold primary-text "> <span class="primary-color leading-[65px]">Our
                 </span>Plants</h1>
-            <p class="secondary-color w-[570px] mt-5 mb-9 mx-auto">Indulge your senses with the beauty and fragrance of our
+            <p class="secondary-color max-w-[570px] text-sm mt-5 mb-9 mx-auto px-2 ">Indulge your senses with the beauty and fragrance
+                of
+                our
                 fresh
                 flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
 
-        <div class="plants-contents grid grid-cols-4 gap-10">
-            <div class=" flex justify-center items-center flex-col">
+        <div class="plants-contents grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mx-auto ">
+            <div class=" flex justify-center items-center flex-col px-2 lg:px-5  ">
                 <img src="./assets/sample-flower-image.png" alt="lily blossom" class="w-[100%] rounded-2xl">
                 <h3 class="text-center mt-4">Lily Blossom</h3>
                 <p class="font-bold text-center mb-2"> 20 USD</p>
                 <button class="button w-[100%] text-xs">ADD TO CART</button>
             </div>
-            <div class=" flex justify-center items-center flex-col">
+            <div class=" flex justify-center items-center flex-col px-2 lg:px-5 ">
                 <img src="./assets/sample-flower-image.png" alt="lily blossom" class="w-[100%] rounded-2xl">
                 <h3 class="text-center mt-4">Lily Blossom</h3>
                 <p class="font-bold text-center mb-2"> 20 USD</p>
                 <button class="button w-[100%] text-xs">ADD TO CART</button>
             </div>
-            <div class=" flex justify-center items-center flex-col">
+            <div class=" flex justify-center items-center flex-col px-2 lg:px-5  ">
                 <img src="./assets/sample-flower-image.png" alt="lily blossom" class="w-[100%] rounded-2xl">
                 <h3 class="text-center mt-4">Lily Blossom</h3>
                 <p class="font-bold text-center mb-2"> 20 USD</p>
                 <button class="button w-[100%] text-xs">ADD TO CART</button>
             </div>
-            <div class=" flex justify-center items-center flex-col">
+            <div class=" flex justify-center items-center flex-col px-2 lg:px-5  ">
                 <img src="./assets/sample-flower-image.png" alt="lily blossom" class="w-[100%] rounded-2xl">
                 <h3 class="text-center mt-4">Lily Blossom</h3>
                 <p class="font-bold text-center mb-2"> 20 USD</p>
                 <button class="button w-[100%] text-xs">ADD TO CART</button>
             </div>
-            <div class=" flex justify-center items-center flex-col">
+            <div class=" flex justify-center items-center flex-col px-2 lg:px-5  ">
                 <img src="./assets/sample-flower-image.png" alt="lily blossom" class="w-[100%] rounded-2xl">
                 <h3 class="text-center mt-4">Lily Blossom</h3>
                 <p class="font-bold text-center mb-2"> 20 USD</p>
                 <button class="button w-[100%] text-xs">ADD TO CART</button>
             </div>
-            <div class=" flex justify-center items-center flex-col">
+            <div class=" flex justify-center items-center flex-col px-2 lg:px-5  ">
                 <img src="./assets/sample-flower-image.png" alt="lily blossom" class="w-[100%] rounded-2xl">
                 <h3 class="text-center mt-4">Lily Blossom</h3>
                 <p class="font-bold text-center mb-2"> 20 USD</p>
                 <button class="button w-[100%] text-xs">ADD TO CART</button>
             </div>
-            <div class=" flex justify-center items-center flex-col">
+            <div class=" flex justify-center items-center flex-col px-2 lg:px-5  ">
                 <img src="./assets/sample-flower-image.png" alt="lily blossom" class="w-[100%] rounded-2xl">
                 <h3 class="text-center mt-4">Lily Blossom</h3>
                 <p class="font-bold text-center mb-2"> 20 USD</p>
                 <button class="button w-[100%] text-xs">ADD TO CART</button>
             </div>
-            <div class=" flex justify-center items-center flex-col">
+            <div class=" flex justify-center items-center flex-col px-2 lg:px-5  ">
                 <img src="./assets/sample-flower-image.png" alt="lily blossom" class="w-[100%] rounded-2xl">
                 <h3 class="text-center mt-4">Lily Blossom</h3>
                 <p class="font-bold text-center mb-2"> 20 USD</p>
