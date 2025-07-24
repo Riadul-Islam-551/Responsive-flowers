@@ -1,11 +1,27 @@
 /* google fonts  */
-.primary-text{
+.primary-text {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
-  }
-  .nav-text{
+    font-weight: 800;
+}
+
+.nav-text {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-  }
+}
+
+.secondary-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+/* font - color   */
+.primary-color {
+    color: #E95A08;
+}
+
+.secondary-color {
+    color: #8987A1;
+}
