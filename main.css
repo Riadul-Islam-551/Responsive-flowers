@@ -1,1 +1,11 @@
-@import "tailwindcss"
+/* google fonts  */
+.primary-text{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  }
+  .nav-text{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  }

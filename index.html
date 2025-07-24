@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Your Favourite Flowers</title>
+    <title>Flower House</title>
     <!-- favicon  -->
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <!-- fontawsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font - Noto-serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- google font - roboto  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <!-- tailwind css  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- external css  -->
-     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
-<body>
-    <h1 class="text-2xl">hello</h1>
+
+<body class="primary-text">
+    <!-- header section  -->
+    <header class="container mx-auto">
+        <!-- navigation section  -->
+        <nav class="flex justify-between nav-text">
+            <img src="./assets/logo.png" alt="logo" class="w-[135px]">
+            <ul class="flex items-center gap-4">
+                <li class="p-3 cursor-pointer "><a href="#" class="font-bold">Home</a> </li>
+                <li class="p-3 cursor-pointer "><a href="#" class="text-[#8987A1]">Shop</a></li>
+                <li class="p-3 cursor-pointer "><a href="#" class="text-[#8987A1]">About us</a></li>
+                <li class="flex p-3 cursor-pointer">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Cart($56)</p>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
+
 </html>
