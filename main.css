@@ -63,3 +63,10 @@
         padding: 9px 16px;
     
 }
+/* footer section  */
+footer .content ul{
+    margin: 0 0 0 20px;
+}
+footer .content ul li{
+    margin: 0 0 20px 0;
+}
