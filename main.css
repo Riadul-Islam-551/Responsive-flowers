@@ -41,3 +41,25 @@
 .offer-text{
     color: #ffffff;
 }
+/* subscription section  */
+.subscription{
+    background-image: url("./assets/news-letter-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input input{
+    background-color: #ffffff;
+    color: rgb(59, 59, 59);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 9px 16px;
+}
+.input-button{
+        background-color: #E95A08;
+        color: #ffffff;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        padding: 9px 16px;
+    
+}
