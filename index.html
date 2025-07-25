@@ -54,7 +54,7 @@
 
         </nav>
         <section
-            class="banner flex flex-col-reverse  lg:flex-row  justify-between items-center lg:items-end lg:h-[461px] mt-[50px] lg:mt-[100px] xl:mt-[150px]">
+            class="banner flex flex-col-reverse  lg:flex-row  justify-between items-center lg:items-end lg:h-[461px] mt-[50px] xl:mt-[100px]">
             <div class="banner-content lg:w-1/2 mx-2">
                 <h1 class="text-xl lg:text-5xl  font-bold primary-text mt-5 lg:mt-0">ALWAYS <span
                         class="primary-color leading-[35px] lg:leading-[65px]">FRESH
@@ -73,7 +73,7 @@
         </section>
     </header>
     <!-- plants section  -->
-    <section class="plants container mx-auto mt-[70px] lg:mt-[135px]">
+    <section class="plants container mx-auto mt-[70px] lg:mt-[135px]  ">
         <div class="plants-des text-center ">
             <h1 class="text-xl lg:text-5xl font-bold primary-text "> <span class="primary-color leading-[65px]">Our
                 </span>Plants</h1>
@@ -139,14 +139,14 @@
     </section>
     <!-- plants store section starts here  -->
     <section
-        class="container my-[70px] md:my-[100px] lg:mb[200px] mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-start lg:items-center gap-7  ">
+        class="container my-[70px] md:my-[100px] lg:my-[200px] mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-start lg:items-center gap-7  ">
         <div class="content lg:w-1/2 mx-auto p-2  relative ">
             <img src="./assets/flower-store.png" alt="flower store image" class="w-[100%] rounded-3xl">
             <img src="./assets/trusted-badge.png" alt="badge icon"
                 class="w-[200px] xl:w-[300px] absolute top-[-100px] right-[-90px] xl:top-[-140px] xl:right-[-150px] hidden lg:block">
         </div>
         <div class="content lg:w-1/2 mx-2  lg:ml-9">
-            <h1 class="text-xl lg:text-5xl font-bold primary-text mb-6">Flower & Plants <br> Lover</h1>
+            <h1 class="text-xl lg:text-5xl font-bold primary-text mb-6 max-w-[500px]">Flower & Plants Lover</h1>
             <ul class="secondary-color ml-5 text-sm lg:text-lg">
                 <li class="list-disc mb-3 ">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
@@ -161,7 +161,7 @@
         </div>
     </section>
     <!-- deals plans  -->
-    <section class="deals container mx-auto mb-[100px]">
+    <section class="deals container mx-auto mb-[100px] ">
         <h1 class="text-xl lg:text-5xl font-bold primary-text mb-6 text-center"><span
                 class="primary-color">Latest</span> Deals</h1>
         <p
@@ -170,29 +170,35 @@
             senses with the beauty and
             fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
         </p>
-        <div class="offer-container grid grid-cols-1 lg:grid-cols-3 gap-9 offer-text mx-2 lg:mx-0 ">
-            <div class="content offer-1 relative offer-background rounded-2xl ">
-                <img src="./assets/deal-bloom.png" alt="blooming flower" class="w-[100%] opacity-60 rounded-2xl ">
-                <div class="text-center absolute top-[50%] left-[50%] translate-[-50%]">
-                    <h3 class="font-bold text-sm md:text-lg lg:text-xl ">60% Off | Bloom Plant</h3>
-                    <button><a href="#" class="underline ">Shop Now</a></button>
+        <div class="offer-container grid grid-cols-1 lg:grid-cols-3 offer-text mx-2 lg:mx-0 gap-x-9 gap-y-9 lg:gap-y-0">
+            <div class="grid gap-9">
+                <div class="content offer-1 relative offer-background rounded-2xl ">
+                    <img src="./assets/deal-bloom.png" alt="blooming flower" class="w-[100%] h-[100%] opacity-60 rounded-2xl ">
+                    <div class="text-center absolute top-[50%] left-[50%] translate-[-50%]">
+                        <h3 class="font-bold text-sm md:text-lg lg:text-xl ">60% Off | Bloom Plant</h3>
+                        <button><a href="#" class="underline ">Shop Now</a></button>
+                    </div>
+                </div>
+                <div class="content offer-2 relative offer-background rounded-2xl ">
+                    <img src="./assets/deal-ana.png" alt="zabo flower" class="w-[100%] h-[100%] opacity-60 rounded-2xl ">
+                    <div class="text-center absolute top-[50%] left-[50%] translate-[-50%]">
+                        <h3 class="font-bold text-sm md:text-lg lg:text-xl ">30% Off | Ana Plant</h3>
+                        <button><a href="#" class="underline ">Shop Now</a></button>
+                    </div>
                 </div>
             </div>
-            <div
-                class="content offer-2 lg:col-span-2 lg:row-span-2 relative offer-background rounded-2xl flex justify-center items-center">
-                <img src="./assets/deal-zabo.png" alt="ana flower" class="w-[100%] h-[100%]  opacity-60 rounded-2xl">
+
+
+            <div class="content offer-3 lg:col-span-2 lg:row-span-2 relative offer-background rounded-2xl flex >
+            
+            justify-center items-center">
+                <img src="./assets/deal-zabo.png" alt="ana flower" class="w-[100%] h-[100%] opacity-60 rounded-2xl">
                 <div class="text-center absolute top-[50%] left-[50%] translate-[-50%]">
                     <h3 class="font-bold text-sm md:text-lg lg:text-2xl ">25% Off | Zabo Plant</h3>
                     <button><a href="#" class="underline ">Shop Now</a></button>
                 </div>
             </div>
-            <div class="content offer-3 relative offer-background rounded-2xl ">
-                <img src="./assets/deal-ana.png" alt="zabo flower" class="w-[100%]  opacity-60 rounded-2xl ">
-                <div class="text-center absolute top-[50%] left-[50%] translate-[-50%]">
-                    <h3 class="font-bold text-sm md:text-lg lg:text-xl ">30% Off | Ana Plant</h3>
-                    <button><a href="#" class="underline ">Shop Now</a></button>
-                </div>
-            </div>
+
         </div>
     </section>
     <!-- subscription section  -->
@@ -208,7 +214,8 @@
     <footer class="container mx-auto my-[100px] grid grid-cols-1 lg:grid-cols-6 secondary-color lg:gap-9 ">
         <div class="content lg:col-span-2 mx-2 xl:mx-0">
             <img src="./assets/logo.png" alt="logo" class="w-[100px] lg:w-[135px]">
-            <p class="mt-5 text-sm lg:text-lg">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            <p class="mt-5 text-sm lg:text-lg">Indulge your senses with the beauty and fragrance of our fresh flower
+                shop. </p>
         </div>
         <div class="content mt-7 lg:mt-0 text-sm lg:text-lg">
             <ul>
